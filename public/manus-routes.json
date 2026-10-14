@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "path": "/", "title": "Home" },
+    { "path": "/ar-labs", "title": "AR Labs" },
+    { "path": "/crime-report", "title": "India Crime Report" },
+    { "path": "/ai-news", "title": "AI News" },
+    { "path": "/ai-intelligence", "title": "AI Intelligence" },
+    { "path": "/world-explorer", "title": "World Explorer" },
+    { "path": "/room-reader", "title": "Room Reader" },
+    { "path": "/exit", "title": "Exit" }
+  ]
+}

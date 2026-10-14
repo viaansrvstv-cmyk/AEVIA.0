@@ -1,0 +1,5 @@
+AEVIA country facts use data from Countries States Cities Database (ISO3 code, capital, population, timezones and flag emoji): https://github.com/dr5hn/countries-states-cities-database
+
+Official language names are supplemented from mledoze/countries: https://github.com/mledoze/countries
+
+This derived country-data subset is distributed under the Open Database License (ODbL) v1.0. The full license text is in /country-data-ODbL-license.txt.

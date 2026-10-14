@@ -1,0 +1,17 @@
+AEVIA country comparison — source and method
+
+Source: World Bank Indicators API
+Indicator code: VC.IHR.PSRC.P5
+Indicator title: Intentional homicides (per 100,000 people)
+
+The comparison fetches the selected country’s annual series from the World Bank API and displays the most recent year with a non-null value for each country. The two countries may therefore show different latest years. If the API has no reported value for a country, the page displays “No data”.
+
+API endpoint template:
+https://api.worldbank.org/v2/country/{ISO3}/indicator/VC.IHR.PSRC.P5?format=json&per_page=100
+
+World Bank indicator page:
+https://data.worldbank.org/indicator/VC.IHR.PSRC.P5
+
+The existing India state-by-state Crime Report above remains a separately labelled illustrative sample dataset; it is not replaced by this comparison.
+
+Implementation note: the API returns annual observations in JSON and permits browser requests with Access-Control-Allow-Origin: *. The app sorts observations by year and uses the newest non-null value. Verified against the public IND and USA endpoints on 2026-10-13.
