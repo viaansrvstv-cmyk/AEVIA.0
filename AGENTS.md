@@ -1,0 +1,6 @@
+- Preserve the uploaded AEVIA routes and shared chrome; add modules through a leaf route and the shared navigation/module arrays so existing URLs keep working.
+- Isolate World Explorer's R3F scene behind a lazy client-only boundary, with direct Three geometry and a visibility-paused render loop, to avoid loading WebGL on other pages.
+- Keep country picking and timezone/weather formatting in a browser-safe utility module with concrete tests, so geometry and live-data rules are independently verifiable.
+- Keep downloaded Earth imagery in `public/`, reference it locally, and retain attribution for bundled data and assets.
+- Strip devtools `data-tsd-source` props from R3F modules in the development transform because dashed DOM attributes are invalid Three property paths.
+- Keep interactive motion brief, respect reduced-motion preferences, and pause expensive render loops when their canvas is offscreen or the browser tab is hidden.

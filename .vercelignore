@@ -1,0 +1,10 @@
+node_modules
+.output
+.git
+.vite
+.nitro
+.tanstack
+.env
+.env.*
+!.env.example
+*.log
